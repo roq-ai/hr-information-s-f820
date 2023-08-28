@@ -1,0 +1,2422 @@
+[
+  {
+    "employee": [
+      {
+        "id": "b32baf96-093f-4591-b615-01c5c86ebe1c",
+        "first_name": "Emily",
+        "last_name": "Johnson",
+        "job_title": "Software Engineer",
+        "start_date": "2023-08-28T01:07:41.419Z",
+        "end_date": "2023-08-27T15:38:21.157Z",
+        "created_at": "2023-08-28T02:26:13.144Z",
+        "updated_at": "2023-08-28T02:21:48.954Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "114db8f4-9fa4-4a9d-be38-4751f47318b4",
+        "first_name": "Daniel",
+        "last_name": "Anderson",
+        "job_title": "Marketing Manager",
+        "start_date": "2023-08-28T07:17:36.554Z",
+        "end_date": "2023-08-28T07:57:27.493Z",
+        "created_at": "2023-08-27T19:33:20.190Z",
+        "updated_at": "2023-08-28T03:24:46.894Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "bb4b57ce-1275-4cab-9eb5-264be6a61aa1",
+        "first_name": "Olivia",
+        "last_name": "Williams",
+        "job_title": "Sales Representative",
+        "start_date": "2023-08-27T20:38:50.463Z",
+        "end_date": "2023-08-27T13:41:25.689Z",
+        "created_at": "2023-08-28T00:16:36.444Z",
+        "updated_at": "2023-08-27T10:46:09.047Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "22ef525c-502e-47f1-b170-3c517b3dba73",
+        "first_name": "Matthew",
+        "last_name": "Brown",
+        "job_title": "Human Resources Specialist",
+        "start_date": "2023-08-28T05:43:50.893Z",
+        "end_date": "2023-08-28T00:18:54.688Z",
+        "created_at": "2023-08-27T20:08:29.492Z",
+        "updated_at": "2023-08-27T16:25:14.457Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "8e310f48-940b-425d-8fde-e5effac40709",
+        "first_name": "Sophia",
+        "last_name": "Smith",
+        "job_title": "Financial Analyst",
+        "start_date": "2023-08-27T22:54:36.148Z",
+        "end_date": "2023-08-27T14:25:30.023Z",
+        "created_at": "2023-08-28T07:13:14.900Z",
+        "updated_at": "2023-08-27T18:34:27.436Z",
+        "company_id": "main_entity_pk"
+      }
+    ],
+    "vacation": [
+      {
+        "id": "97d816ca-5781-4bad-9f4a-96a027f10d15",
+        "start_date": "2023-08-27T15:04:14.702Z",
+        "end_date": "2023-08-27T14:16:26.881Z",
+        "created_at": "2023-08-28T03:10:28.152Z",
+        "updated_at": "2023-08-27T12:45:40.213Z",
+        "employee_id": "b32baf96-093f-4591-b615-01c5c86ebe1c"
+      },
+      {
+        "id": "25e330c0-177f-479f-ba0f-20fcfb7f10a1",
+        "start_date": "2023-08-27T17:04:11.989Z",
+        "end_date": "2023-08-27T23:39:28.061Z",
+        "created_at": "2023-08-28T03:44:37.111Z",
+        "updated_at": "2023-08-27T15:42:58.058Z",
+        "employee_id": "bb4b57ce-1275-4cab-9eb5-264be6a61aa1"
+      },
+      {
+        "id": "9285dad3-fb93-44ea-8e07-ab1b6f8d4171",
+        "start_date": "2023-08-28T09:40:18.433Z",
+        "end_date": "2023-08-28T05:58:06.893Z",
+        "created_at": "2023-08-28T00:16:15.255Z",
+        "updated_at": "2023-08-27T12:12:47.822Z",
+        "employee_id": "b32baf96-093f-4591-b615-01c5c86ebe1c"
+      },
+      {
+        "id": "aae198f6-0497-41a8-8dab-2743b1932cf9",
+        "start_date": "2023-08-27T19:32:45.636Z",
+        "end_date": "2023-08-27T13:33:20.668Z",
+        "created_at": "2023-08-27T19:38:21.871Z",
+        "updated_at": "2023-08-27T19:32:17.225Z",
+        "employee_id": "114db8f4-9fa4-4a9d-be38-4751f47318b4"
+      },
+      {
+        "id": "cb9fa094-0850-4e99-8d02-1b6c501b2f27",
+        "start_date": "2023-08-27T21:53:55.761Z",
+        "end_date": "2023-08-27T19:25:52.609Z",
+        "created_at": "2023-08-27T14:25:43.571Z",
+        "updated_at": "2023-08-27T11:36:10.435Z",
+        "employee_id": "b32baf96-093f-4591-b615-01c5c86ebe1c"
+      }
+    ],
+    "payroll": [
+      {
+        "id": "07d35112-4761-4d29-9253-596367a28708",
+        "salary": 97080,
+        "bonus": 71901,
+        "deductions": 34926,
+        "created_at": "2023-08-28T02:16:03.084Z",
+        "updated_at": "2023-08-28T04:15:41.847Z",
+        "employee_id": "b32baf96-093f-4591-b615-01c5c86ebe1c"
+      },
+      {
+        "id": "5585930a-482a-4485-b2c5-e72585352d35",
+        "salary": 8677,
+        "bonus": 47836,
+        "deductions": 73991,
+        "created_at": "2023-08-28T01:26:35.809Z",
+        "updated_at": "2023-08-27T09:48:20.926Z",
+        "employee_id": "8e310f48-940b-425d-8fde-e5effac40709"
+      },
+      {
+        "id": "a7c0d75e-2f5e-4b39-a588-3451131a8a79",
+        "salary": 41818,
+        "bonus": 60200,
+        "deductions": 25370,
+        "created_at": "2023-08-27T12:55:38.909Z",
+        "updated_at": "2023-08-28T03:30:13.187Z",
+        "employee_id": "22ef525c-502e-47f1-b170-3c517b3dba73"
+      },
+      {
+        "id": "43963c62-1a03-4f62-8f60-34bbb578f327",
+        "salary": 42805,
+        "bonus": 74830,
+        "deductions": 39253,
+        "created_at": "2023-08-28T03:24:03.030Z",
+        "updated_at": "2023-08-27T15:05:21.409Z",
+        "employee_id": "bb4b57ce-1275-4cab-9eb5-264be6a61aa1"
+      },
+      {
+        "id": "cd4bf524-2487-4f3a-8b4e-74cea1e7bf06",
+        "salary": 97667,
+        "bonus": 4953,
+        "deductions": 78737,
+        "created_at": "2023-08-27T19:08:06.308Z",
+        "updated_at": "2023-08-27T12:51:20.431Z",
+        "employee_id": "bb4b57ce-1275-4cab-9eb5-264be6a61aa1"
+      }
+    ],
+    "benefit": [
+      {
+        "id": "24e725d8-6f11-43d5-92dc-c65601f6980b",
+        "type": "Health Insurance",
+        "description": "Comprehensive health coverage for employees and their families",
+        "value": 51159,
+        "created_at": "2023-08-27T23:31:34.400Z",
+        "updated_at": "2023-08-27T13:01:15.560Z",
+        "employee_id": "bb4b57ce-1275-4cab-9eb5-264be6a61aa1"
+      },
+      {
+        "id": "08defff5-abee-40e0-a071-d28bc0fee212",
+        "type": "Retirement Plan",
+        "description": "Generous retirement benefits to secure your future",
+        "value": 90557,
+        "created_at": "2023-08-27T18:55:26.929Z",
+        "updated_at": "2023-08-27T10:50:12.264Z",
+        "employee_id": "22ef525c-502e-47f1-b170-3c517b3dba73"
+      },
+      {
+        "id": "9faf93d3-c32b-467c-b7f2-11b7959ddbbf",
+        "type": "Paid Time Off",
+        "description": "Paid vacation and sick leave for work-life balance",
+        "value": 19536,
+        "created_at": "2023-08-28T00:33:01.589Z",
+        "updated_at": "2023-08-28T09:07:25.209Z",
+        "employee_id": "bb4b57ce-1275-4cab-9eb5-264be6a61aa1"
+      },
+      {
+        "id": "ef46ac44-7013-4890-9535-3b4c89c82a1c",
+        "type": "Flexible Work Schedule",
+        "description": "Flexible work hours to accommodate personal needs",
+        "value": 89148,
+        "created_at": "2023-08-27T22:27:49.032Z",
+        "updated_at": "2023-08-27T15:19:11.147Z",
+        "employee_id": "114db8f4-9fa4-4a9d-be38-4751f47318b4"
+      },
+      {
+        "id": "506d82f7-dbed-41d0-879f-542742e35d98",
+        "type": "Professional Development",
+        "description": "Opportunities for career growth and skill enhancement",
+        "value": 6892,
+        "created_at": "2023-08-27T14:21:24.201Z",
+        "updated_at": "2023-08-28T07:20:50.389Z",
+        "employee_id": "bb4b57ce-1275-4cab-9eb5-264be6a61aa1"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "05a4da53-f492-42d2-885a-eb203a9696b2",
+        "email": "Alfonso_DAmore@hotmail.com",
+        "firstName": "Matt",
+        "lastName": "Klein",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/264.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "bded3c58-ba29-4a3b-86ac-589e399f762e",
+        "email": "Lou27@hotmail.com",
+        "firstName": "Tristin",
+        "lastName": "Watsica",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/49156825",
+        "tenantId": null
+      },
+      {
+        "reference": "039b7808-b67f-4e35-9d69-6f5f03ee64ab",
+        "email": "Jazmyn82@yahoo.com",
+        "firstName": "Claud",
+        "lastName": "Ullrich",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/73883500",
+        "tenantId": null
+      },
+      {
+        "reference": "4ce3e990-2ac9-4a29-a52b-afd089d4ad17",
+        "email": "Brandt.Franecki-Raynor@yahoo.com",
+        "firstName": "Leone",
+        "lastName": "King",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/80157900",
+        "tenantId": null
+      },
+      {
+        "reference": "e33c782e-f5d5-4bbf-a7a3-ea44b2b1cc1c",
+        "email": "Aditya.Hartmann42@yahoo.com",
+        "firstName": "Freeda",
+        "lastName": "Bauch",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/396.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "employee": [
+      {
+        "id": "ab2bbc90-6abf-4885-81ea-ea524f0cecf0",
+        "first_name": "Alex",
+        "last_name": "Johnson",
+        "job_title": "Software Engineer",
+        "start_date": "2023-08-28T09:20:10.021Z",
+        "end_date": "2023-08-28T01:31:44.564Z",
+        "created_at": "2023-08-27T12:28:39.595Z",
+        "updated_at": "2023-08-27T11:45:47.600Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "d31f8c22-6d8b-4f58-b71d-3c129007be87",
+        "first_name": "Emily",
+        "last_name": "Anderson",
+        "job_title": "Marketing Manager",
+        "start_date": "2023-08-28T00:10:48.633Z",
+        "end_date": "2023-08-27T17:17:38.069Z",
+        "created_at": "2023-08-28T08:23:35.065Z",
+        "updated_at": "2023-08-27T14:20:19.850Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "4ca560f2-fb7c-40cf-9bdf-7f2c8283bac6",
+        "first_name": "Daniel",
+        "last_name": "Taylor",
+        "job_title": "Sales Representative",
+        "start_date": "2023-08-28T02:36:00.812Z",
+        "end_date": "2023-08-27T18:41:32.867Z",
+        "created_at": "2023-08-27T21:33:29.575Z",
+        "updated_at": "2023-08-27T11:35:27.250Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "74b1bffa-1a75-4f80-96da-ef7582c1f1ab",
+        "first_name": "Olivia",
+        "last_name": "Williams",
+        "job_title": "Human Resources Specialist",
+        "start_date": "2023-08-28T09:12:22.200Z",
+        "end_date": "2023-08-28T08:54:18.422Z",
+        "created_at": "2023-08-27T15:36:55.601Z",
+        "updated_at": "2023-08-28T04:48:25.911Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "e8a32145-ca98-40a6-af87-ebfe44e2d41f",
+        "first_name": "James",
+        "last_name": "Brown",
+        "job_title": "Financial Analyst",
+        "start_date": "2023-08-27T15:38:59.523Z",
+        "end_date": "2023-08-27T22:29:10.662Z",
+        "created_at": "2023-08-28T05:44:19.055Z",
+        "updated_at": "2023-08-27T19:15:27.468Z",
+        "company_id": "main_entity_pk"
+      }
+    ],
+    "vacation": [
+      {
+        "id": "7c498526-1cfa-4658-b2d9-15c087c634fe",
+        "start_date": "2023-08-27T12:22:24.658Z",
+        "end_date": "2023-08-27T11:21:53.277Z",
+        "created_at": "2023-08-27T11:11:27.543Z",
+        "updated_at": "2023-08-27T16:14:47.900Z",
+        "employee_id": "ab2bbc90-6abf-4885-81ea-ea524f0cecf0"
+      },
+      {
+        "id": "c688df3a-1197-4a94-b18f-4aaca40af856",
+        "start_date": "2023-08-27T19:59:20.600Z",
+        "end_date": "2023-08-27T22:42:58.130Z",
+        "created_at": "2023-08-27T21:54:01.712Z",
+        "updated_at": "2023-08-27T12:42:59.243Z",
+        "employee_id": "e8a32145-ca98-40a6-af87-ebfe44e2d41f"
+      },
+      {
+        "id": "1f23c7c9-4de2-413f-ac0c-4cbea19c8d61",
+        "start_date": "2023-08-28T08:12:37.557Z",
+        "end_date": "2023-08-28T00:52:31.910Z",
+        "created_at": "2023-08-28T04:02:14.053Z",
+        "updated_at": "2023-08-27T21:29:10.173Z",
+        "employee_id": "ab2bbc90-6abf-4885-81ea-ea524f0cecf0"
+      },
+      {
+        "id": "7b02f728-d12d-446c-98c6-e7f5004ebcb9",
+        "start_date": "2023-08-28T07:16:35.492Z",
+        "end_date": "2023-08-27T15:49:57.641Z",
+        "created_at": "2023-08-28T00:15:26.144Z",
+        "updated_at": "2023-08-27T15:57:59.633Z",
+        "employee_id": "ab2bbc90-6abf-4885-81ea-ea524f0cecf0"
+      },
+      {
+        "id": "affef7f8-390d-4f47-b6c9-e3711c2d0859",
+        "start_date": "2023-08-28T06:37:22.397Z",
+        "end_date": "2023-08-28T00:42:28.238Z",
+        "created_at": "2023-08-27T12:15:55.695Z",
+        "updated_at": "2023-08-27T13:47:28.008Z",
+        "employee_id": "d31f8c22-6d8b-4f58-b71d-3c129007be87"
+      }
+    ],
+    "payroll": [
+      {
+        "id": "9ed237fe-558c-493b-9cc6-de637ce72100",
+        "salary": 53946,
+        "bonus": 97983,
+        "deductions": 31923,
+        "created_at": "2023-08-27T14:56:33.730Z",
+        "updated_at": "2023-08-27T16:49:45.758Z",
+        "employee_id": "ab2bbc90-6abf-4885-81ea-ea524f0cecf0"
+      },
+      {
+        "id": "8d54ec48-37a3-40b2-a733-ea80dd55230f",
+        "salary": 99996,
+        "bonus": 84537,
+        "deductions": 82110,
+        "created_at": "2023-08-28T08:23:57.834Z",
+        "updated_at": "2023-08-27T14:17:51.946Z",
+        "employee_id": "4ca560f2-fb7c-40cf-9bdf-7f2c8283bac6"
+      },
+      {
+        "id": "d5eb371a-f127-43f0-90c2-328244a91193",
+        "salary": 49388,
+        "bonus": 65614,
+        "deductions": 56060,
+        "created_at": "2023-08-28T03:15:35.785Z",
+        "updated_at": "2023-08-28T01:26:10.441Z",
+        "employee_id": "4ca560f2-fb7c-40cf-9bdf-7f2c8283bac6"
+      },
+      {
+        "id": "597d9d8b-f39b-4526-a903-4d8864856a08",
+        "salary": 96298,
+        "bonus": 22099,
+        "deductions": 89692,
+        "created_at": "2023-08-27T13:58:06.156Z",
+        "updated_at": "2023-08-28T08:33:34.837Z",
+        "employee_id": "ab2bbc90-6abf-4885-81ea-ea524f0cecf0"
+      },
+      {
+        "id": "f4817943-5879-4db8-800a-11f2b31276db",
+        "salary": 17304,
+        "bonus": 83179,
+        "deductions": 89974,
+        "created_at": "2023-08-27T13:54:38.787Z",
+        "updated_at": "2023-08-28T03:18:44.748Z",
+        "employee_id": "74b1bffa-1a75-4f80-96da-ef7582c1f1ab"
+      }
+    ],
+    "benefit": [
+      {
+        "id": "e5db0af8-abf2-42e0-845c-6e6da8d9df47",
+        "type": "Health Insurance",
+        "description": "Comprehensive health coverage for employees and their families",
+        "value": 97329,
+        "created_at": "2023-08-27T20:36:42.770Z",
+        "updated_at": "2023-08-27T18:58:47.843Z",
+        "employee_id": "e8a32145-ca98-40a6-af87-ebfe44e2d41f"
+      },
+      {
+        "id": "57fef5a2-554a-45f8-ae6c-3e529a60384f",
+        "type": "Retirement Plan",
+        "description": "Generous retirement savings options",
+        "value": 76219,
+        "created_at": "2023-08-27T23:32:00.776Z",
+        "updated_at": "2023-08-27T14:17:52.935Z",
+        "employee_id": "74b1bffa-1a75-4f80-96da-ef7582c1f1ab"
+      },
+      {
+        "id": "64ac15e9-f77c-4e9e-97d8-43684688aeab",
+        "type": "Paid Time Off",
+        "description": "Paid vacation and sick leave",
+        "value": 19945,
+        "created_at": "2023-08-27T15:15:25.444Z",
+        "updated_at": "2023-08-28T01:32:10.144Z",
+        "employee_id": "74b1bffa-1a75-4f80-96da-ef7582c1f1ab"
+      },
+      {
+        "id": "03157719-d7ea-456d-bf83-302a5df83682",
+        "type": "Flexible Work Schedule",
+        "description": "Flexible hours to maintain work-life balance",
+        "value": 19701,
+        "created_at": "2023-08-27T21:22:30.543Z",
+        "updated_at": "2023-08-28T00:14:43.467Z",
+        "employee_id": "4ca560f2-fb7c-40cf-9bdf-7f2c8283bac6"
+      },
+      {
+        "id": "0c105208-f616-4d2e-861f-6bbb7bcce909",
+        "type": "Professional Development",
+        "description": "Opportunities for career growth and learning",
+        "value": 30892,
+        "created_at": "2023-08-27T20:08:41.002Z",
+        "updated_at": "2023-08-27T23:36:11.210Z",
+        "employee_id": "e8a32145-ca98-40a6-af87-ebfe44e2d41f"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "f1f84d18-4f96-48d8-a88b-865ee764c0ac",
+        "email": "Elinor_Jacobson7@yahoo.com",
+        "firstName": "Norval",
+        "lastName": "McClure",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/59438456",
+        "tenantId": null
+      },
+      {
+        "reference": "c6e43dcb-8c33-470b-a344-50485491d2a2",
+        "email": "Price82@hotmail.com",
+        "firstName": "Imani",
+        "lastName": "Lemke",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/48520487",
+        "tenantId": null
+      },
+      {
+        "reference": "0181fe90-83c4-4f3b-965d-34e6522865c9",
+        "email": "Dixie95@hotmail.com",
+        "firstName": "Beth",
+        "lastName": "Cronin",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/787.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "63db22d0-54d5-4831-aba4-cda309452a6b",
+        "email": "Ike_Bernier@hotmail.com",
+        "firstName": "Brandon",
+        "lastName": "Moen",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/43633214",
+        "tenantId": null
+      },
+      {
+        "reference": "0f4007ef-9578-4d63-a594-faddbe279463",
+        "email": "Ruthe67@gmail.com",
+        "firstName": "Layla",
+        "lastName": "Cartwright",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/76349251",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "employee": [
+      {
+        "id": "1c14decc-babf-42c7-8fa1-359b45a92f49",
+        "first_name": "Robert",
+        "last_name": "Miller",
+        "job_title": "Software Engineer",
+        "start_date": "2023-08-27T12:46:10.804Z",
+        "end_date": "2023-08-27T10:00:15.101Z",
+        "created_at": "2023-08-27T22:22:53.765Z",
+        "updated_at": "2023-08-28T09:38:17.995Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "d01cb403-5268-43e7-898d-565aa1bb1d65",
+        "first_name": "Sarah",
+        "last_name": "Davis",
+        "job_title": "Marketing Specialist",
+        "start_date": "2023-08-28T02:47:12.956Z",
+        "end_date": "2023-08-28T01:07:29.575Z",
+        "created_at": "2023-08-28T06:23:19.254Z",
+        "updated_at": "2023-08-27T11:35:44.601Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "90dc00c1-5bf1-479e-9201-6cfaa7a5a802",
+        "first_name": "Daniel",
+        "last_name": "Wilson",
+        "job_title": "HR Manager",
+        "start_date": "2023-08-28T04:13:14.458Z",
+        "end_date": "2023-08-27T22:44:30.225Z",
+        "created_at": "2023-08-27T11:23:55.664Z",
+        "updated_at": "2023-08-28T03:10:49.853Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "3fee56de-9bab-4813-a4c5-e7ec33e66c1d",
+        "first_name": "Amy",
+        "last_name": "Anderson",
+        "job_title": "Sales Representative",
+        "start_date": "2023-08-27T18:01:13.941Z",
+        "end_date": "2023-08-28T07:18:21.482Z",
+        "created_at": "2023-08-28T02:39:52.647Z",
+        "updated_at": "2023-08-27T12:21:53.872Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "bbfbb70d-6006-4681-9e11-147a893bbcb6",
+        "first_name": "Kevin",
+        "last_name": "Taylor",
+        "job_title": "Operations Analyst",
+        "start_date": "2023-08-27T20:06:02.048Z",
+        "end_date": "2023-08-27T22:20:11.918Z",
+        "created_at": "2023-08-27T19:37:26.943Z",
+        "updated_at": "2023-08-28T02:11:14.400Z",
+        "company_id": "main_entity_pk"
+      }
+    ],
+    "vacation": [
+      {
+        "id": "18e3fa66-a73c-44f6-b842-30a64d7e3498",
+        "start_date": "2023-08-27T16:15:26.461Z",
+        "end_date": "2023-08-27T10:33:53.459Z",
+        "created_at": "2023-08-28T00:26:28.391Z",
+        "updated_at": "2023-08-27T12:47:31.902Z",
+        "employee_id": "d01cb403-5268-43e7-898d-565aa1bb1d65"
+      },
+      {
+        "id": "fa1e5092-f2dc-49de-b56c-11428ab5d9fb",
+        "start_date": "2023-08-27T13:12:45.218Z",
+        "end_date": "2023-08-27T17:51:55.428Z",
+        "created_at": "2023-08-28T03:14:55.082Z",
+        "updated_at": "2023-08-27T20:53:40.980Z",
+        "employee_id": "3fee56de-9bab-4813-a4c5-e7ec33e66c1d"
+      },
+      {
+        "id": "6ef33514-8335-4816-a628-3f3a8f79845e",
+        "start_date": "2023-08-28T07:51:12.111Z",
+        "end_date": "2023-08-28T01:20:42.455Z",
+        "created_at": "2023-08-28T00:02:30.420Z",
+        "updated_at": "2023-08-28T08:11:43.831Z",
+        "employee_id": "90dc00c1-5bf1-479e-9201-6cfaa7a5a802"
+      },
+      {
+        "id": "84a7cf05-0056-4975-9962-b3231d6169e4",
+        "start_date": "2023-08-28T03:24:25.363Z",
+        "end_date": "2023-08-28T04:41:40.342Z",
+        "created_at": "2023-08-28T05:14:59.408Z",
+        "updated_at": "2023-08-28T02:58:13.656Z",
+        "employee_id": "1c14decc-babf-42c7-8fa1-359b45a92f49"
+      },
+      {
+        "id": "2f33cf53-7a6a-4b83-98b7-07430301bef0",
+        "start_date": "2023-08-27T11:12:47.698Z",
+        "end_date": "2023-08-28T04:25:50.409Z",
+        "created_at": "2023-08-27T16:04:55.313Z",
+        "updated_at": "2023-08-27T14:16:44.490Z",
+        "employee_id": "3fee56de-9bab-4813-a4c5-e7ec33e66c1d"
+      }
+    ],
+    "payroll": [
+      {
+        "id": "14ec3930-6610-4b64-ae39-160184a332b7",
+        "salary": 98854,
+        "bonus": 90737,
+        "deductions": 69152,
+        "created_at": "2023-08-27T14:55:18.616Z",
+        "updated_at": "2023-08-28T03:16:22.035Z",
+        "employee_id": "90dc00c1-5bf1-479e-9201-6cfaa7a5a802"
+      },
+      {
+        "id": "8d0893d3-ccfd-497a-83e5-f816c1c4ed3b",
+        "salary": 30344,
+        "bonus": 89671,
+        "deductions": 77396,
+        "created_at": "2023-08-28T08:24:21.809Z",
+        "updated_at": "2023-08-28T03:09:41.494Z",
+        "employee_id": "90dc00c1-5bf1-479e-9201-6cfaa7a5a802"
+      },
+      {
+        "id": "cfa1bf98-f25f-4ffa-bcf4-a699ec15983d",
+        "salary": 8755,
+        "bonus": 51676,
+        "deductions": 54258,
+        "created_at": "2023-08-27T10:33:05.763Z",
+        "updated_at": "2023-08-28T02:45:33.032Z",
+        "employee_id": "d01cb403-5268-43e7-898d-565aa1bb1d65"
+      },
+      {
+        "id": "f23573a3-0e80-4606-a742-c619bfa84430",
+        "salary": 21327,
+        "bonus": 51118,
+        "deductions": 44312,
+        "created_at": "2023-08-27T12:47:20.999Z",
+        "updated_at": "2023-08-27T17:33:45.335Z",
+        "employee_id": "d01cb403-5268-43e7-898d-565aa1bb1d65"
+      },
+      {
+        "id": "03c1a121-23e4-4a4d-a707-3dc655ec2f0e",
+        "salary": 65942,
+        "bonus": 53618,
+        "deductions": 22533,
+        "created_at": "2023-08-27T14:24:23.253Z",
+        "updated_at": "2023-08-27T10:34:49.278Z",
+        "employee_id": "bbfbb70d-6006-4681-9e11-147a893bbcb6"
+      }
+    ],
+    "benefit": [
+      {
+        "id": "d566fd37-3d77-43f2-ba23-526236c892c7",
+        "type": "Health Insurance",
+        "description": "Comprehensive health insurance coverage",
+        "value": 59521,
+        "created_at": "2023-08-27T16:40:03.733Z",
+        "updated_at": "2023-08-27T14:38:10.382Z",
+        "employee_id": "90dc00c1-5bf1-479e-9201-6cfaa7a5a802"
+      },
+      {
+        "id": "95f33fb6-f628-4d50-bd5d-7f72391f39ae",
+        "type": "401(k) Plan",
+        "description": "Retirement savings plan with employer match",
+        "value": 4612,
+        "created_at": "2023-08-28T08:52:18.663Z",
+        "updated_at": "2023-08-28T06:58:46.009Z",
+        "employee_id": "d01cb403-5268-43e7-898d-565aa1bb1d65"
+      },
+      {
+        "id": "74eade57-ff27-4c19-8055-51c4e1827643",
+        "type": "Paid Time Off",
+        "description": "Generous vacation and sick leave policy",
+        "value": 91375,
+        "created_at": "2023-08-27T22:11:02.489Z",
+        "updated_at": "2023-08-27T16:52:04.779Z",
+        "employee_id": "3fee56de-9bab-4813-a4c5-e7ec33e66c1d"
+      },
+      {
+        "id": "5c2b5d9f-7146-4547-a45f-c09e09392f5a",
+        "type": "Flexible Work Schedule",
+        "description": "Ability to work remotely",
+        "value": 61270,
+        "created_at": "2023-08-27T18:19:02.383Z",
+        "updated_at": "2023-08-28T00:57:36.809Z",
+        "employee_id": "d01cb403-5268-43e7-898d-565aa1bb1d65"
+      },
+      {
+        "id": "f43af4cd-204f-4cc3-a9e2-5091ba045e09",
+        "type": "Professional Development",
+        "description": "Opportunities for skill enhancement and career growth",
+        "value": 78380,
+        "created_at": "2023-08-28T07:55:40.545Z",
+        "updated_at": "2023-08-27T16:15:11.738Z",
+        "employee_id": "bbfbb70d-6006-4681-9e11-147a893bbcb6"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "d613efe4-ea33-4000-ba61-a76040d4c459",
+        "email": "Luna.Pagac@hotmail.com",
+        "firstName": "Coleman",
+        "lastName": "Balistreri",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/100.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "14bdf4dd-0f89-4dc3-8190-2a23595e5974",
+        "email": "Anais11@hotmail.com",
+        "firstName": "Okey",
+        "lastName": "Johnson",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/452.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "5bf08e33-cc75-4177-afd1-694eefd412f3",
+        "email": "Tiffany.Hegmann43@yahoo.com",
+        "firstName": "Gideon",
+        "lastName": "Kassulke",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/88023743",
+        "tenantId": null
+      },
+      {
+        "reference": "97c1de70-f3c9-4293-a435-07c06cb998ff",
+        "email": "Tianna_Ledner12@gmail.com",
+        "firstName": "Joy",
+        "lastName": "Hills",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/559.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "9c06c67c-417c-4b46-bdd4-a4557c7514d3",
+        "email": "Barton.Oberbrunner-Graham@gmail.com",
+        "firstName": "Marty",
+        "lastName": "Dickinson",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/566.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "employee": [
+      {
+        "id": "1de8176f-bcc3-494c-b369-f584aed2cc2c",
+        "first_name": "David",
+        "last_name": "Wilson",
+        "job_title": "Software Engineer",
+        "start_date": "2023-08-27T18:05:09.993Z",
+        "end_date": "2023-08-27T13:00:04.432Z",
+        "created_at": "2023-08-28T06:26:43.745Z",
+        "updated_at": "2023-08-27T13:39:44.677Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "56945a5c-5330-4be5-88d0-ded2bed12e85",
+        "first_name": "Jennifer",
+        "last_name": "Anderson",
+        "job_title": "Marketing Manager",
+        "start_date": "2023-08-28T01:43:20.167Z",
+        "end_date": "2023-08-27T10:01:48.391Z",
+        "created_at": "2023-08-27T18:28:22.809Z",
+        "updated_at": "2023-08-27T21:52:59.077Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "fd39a8b0-143d-4e25-b4aa-e7e910de0bcc",
+        "first_name": "Christopher",
+        "last_name": "Thompson",
+        "job_title": "Sales Executive",
+        "start_date": "2023-08-27T21:06:15.992Z",
+        "end_date": "2023-08-28T06:06:40.673Z",
+        "created_at": "2023-08-28T09:21:43.723Z",
+        "updated_at": "2023-08-28T08:59:27.493Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "42a71d14-1e3b-4c5f-b307-aa697db4bd90",
+        "first_name": "Emily",
+        "last_name": "Harris",
+        "job_title": "HR Specialist",
+        "start_date": "2023-08-28T08:53:22.426Z",
+        "end_date": "2023-08-27T19:14:46.639Z",
+        "created_at": "2023-08-27T17:48:37.298Z",
+        "updated_at": "2023-08-28T03:30:37.496Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "37135c07-c712-42de-a412-8a03a70b7836",
+        "first_name": "Matthew",
+        "last_name": "Martin",
+        "job_title": "Operations Analyst",
+        "start_date": "2023-08-27T17:45:10.440Z",
+        "end_date": "2023-08-27T14:34:28.076Z",
+        "created_at": "2023-08-27T15:50:36.396Z",
+        "updated_at": "2023-08-27T19:34:47.365Z",
+        "company_id": "main_entity_pk"
+      }
+    ],
+    "vacation": [
+      {
+        "id": "e5392583-d7d1-43db-92dc-6c9a383560c9",
+        "start_date": "2023-08-27T11:41:43.530Z",
+        "end_date": "2023-08-27T22:57:58.071Z",
+        "created_at": "2023-08-27T16:21:35.222Z",
+        "updated_at": "2023-08-28T02:05:17.605Z",
+        "employee_id": "37135c07-c712-42de-a412-8a03a70b7836"
+      },
+      {
+        "id": "38fc948c-7417-4e82-93c3-c69fb03d00fa",
+        "start_date": "2023-08-27T23:59:44.155Z",
+        "end_date": "2023-08-27T13:11:01.097Z",
+        "created_at": "2023-08-27T12:38:38.020Z",
+        "updated_at": "2023-08-28T09:41:33.221Z",
+        "employee_id": "37135c07-c712-42de-a412-8a03a70b7836"
+      },
+      {
+        "id": "870ed578-4cf8-4c74-bb37-0b787f55d44d",
+        "start_date": "2023-08-27T21:20:56.746Z",
+        "end_date": "2023-08-27T18:38:38.251Z",
+        "created_at": "2023-08-28T08:10:15.311Z",
+        "updated_at": "2023-08-28T00:53:41.265Z",
+        "employee_id": "56945a5c-5330-4be5-88d0-ded2bed12e85"
+      },
+      {
+        "id": "3fbd626a-ef9b-429e-a774-bc020fddfd0b",
+        "start_date": "2023-08-27T20:41:41.611Z",
+        "end_date": "2023-08-27T16:26:19.092Z",
+        "created_at": "2023-08-27T21:00:59.870Z",
+        "updated_at": "2023-08-28T02:17:22.048Z",
+        "employee_id": "42a71d14-1e3b-4c5f-b307-aa697db4bd90"
+      },
+      {
+        "id": "fca81b99-ca7f-493d-a8bb-1419e9796f09",
+        "start_date": "2023-08-28T03:33:00.658Z",
+        "end_date": "2023-08-27T19:06:45.804Z",
+        "created_at": "2023-08-27T12:33:31.091Z",
+        "updated_at": "2023-08-27T23:03:27.534Z",
+        "employee_id": "fd39a8b0-143d-4e25-b4aa-e7e910de0bcc"
+      }
+    ],
+    "payroll": [
+      {
+        "id": "d4db41fd-47f1-4896-9531-4269498ceb43",
+        "salary": 68422,
+        "bonus": 97886,
+        "deductions": 95611,
+        "created_at": "2023-08-28T05:36:31.849Z",
+        "updated_at": "2023-08-27T10:05:17.630Z",
+        "employee_id": "1de8176f-bcc3-494c-b369-f584aed2cc2c"
+      },
+      {
+        "id": "bceb7f3e-74f8-48c6-ae5a-0cd99eac8884",
+        "salary": 86372,
+        "bonus": 32730,
+        "deductions": 45993,
+        "created_at": "2023-08-27T10:39:06.898Z",
+        "updated_at": "2023-08-28T05:51:36.890Z",
+        "employee_id": "fd39a8b0-143d-4e25-b4aa-e7e910de0bcc"
+      },
+      {
+        "id": "9a9331d2-aaa0-4be4-9140-3512b782a248",
+        "salary": 28733,
+        "bonus": 19078,
+        "deductions": 31085,
+        "created_at": "2023-08-28T00:54:53.183Z",
+        "updated_at": "2023-08-28T03:08:21.997Z",
+        "employee_id": "37135c07-c712-42de-a412-8a03a70b7836"
+      },
+      {
+        "id": "3dee3b0c-a984-4bc8-9700-e5c19d256d5c",
+        "salary": 28846,
+        "bonus": 29902,
+        "deductions": 90891,
+        "created_at": "2023-08-27T10:34:05.363Z",
+        "updated_at": "2023-08-27T20:17:09.983Z",
+        "employee_id": "fd39a8b0-143d-4e25-b4aa-e7e910de0bcc"
+      },
+      {
+        "id": "b2de4c43-b849-41c4-b62c-faad5f9e8945",
+        "salary": 5116,
+        "bonus": 83195,
+        "deductions": 76023,
+        "created_at": "2023-08-28T05:10:44.644Z",
+        "updated_at": "2023-08-27T13:12:20.053Z",
+        "employee_id": "fd39a8b0-143d-4e25-b4aa-e7e910de0bcc"
+      }
+    ],
+    "benefit": [
+      {
+        "id": "16b58b76-cdad-4490-a88a-d083c5511ddd",
+        "type": "Health Insurance",
+        "description": "Comprehensive health coverage for employees and their families",
+        "value": 9921,
+        "created_at": "2023-08-27T11:18:17.141Z",
+        "updated_at": "2023-08-27T16:11:40.608Z",
+        "employee_id": "42a71d14-1e3b-4c5f-b307-aa697db4bd90"
+      },
+      {
+        "id": "1a19d2f3-34f6-43c9-bead-9082c1082fa1",
+        "type": "Retirement Plan",
+        "description": "Generous retirement savings matching program",
+        "value": 15264,
+        "created_at": "2023-08-27T10:31:11.227Z",
+        "updated_at": "2023-08-28T05:50:51.903Z",
+        "employee_id": "42a71d14-1e3b-4c5f-b307-aa697db4bd90"
+      },
+      {
+        "id": "6f20c4f2-b9bf-4d16-99fb-8cbd61c402f8",
+        "type": "Paid Time Off",
+        "description": "Paid vacation and sick leave for work-life balance",
+        "value": 52981,
+        "created_at": "2023-08-27T18:32:52.759Z",
+        "updated_at": "2023-08-27T18:25:26.672Z",
+        "employee_id": "fd39a8b0-143d-4e25-b4aa-e7e910de0bcc"
+      },
+      {
+        "id": "86ce403b-b8e5-4a67-bc85-11896cd3a6ee",
+        "type": "Employee Discounts",
+        "description": "Exclusive discounts on products and services",
+        "value": 38210,
+        "created_at": "2023-08-27T12:44:35.818Z",
+        "updated_at": "2023-08-27T15:01:42.401Z",
+        "employee_id": "1de8176f-bcc3-494c-b369-f584aed2cc2c"
+      },
+      {
+        "id": "3d532c2a-e4f4-4c23-8ae8-2ace852d1997",
+        "type": "Flexible Work Schedule",
+        "description": "Flexible work hours to accommodate personal needs",
+        "value": 51077,
+        "created_at": "2023-08-27T11:13:46.506Z",
+        "updated_at": "2023-08-27T11:20:28.892Z",
+        "employee_id": "56945a5c-5330-4be5-88d0-ded2bed12e85"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "c73129a0-d8ab-4eba-9b63-c5298c44e42b",
+        "email": "Laurianne_Hettinger74@hotmail.com",
+        "firstName": "Adelle",
+        "lastName": "Dare",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/911.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "b81094ec-07ad-400b-9b22-4427909aa5fa",
+        "email": "Sierra_Schroeder62@gmail.com",
+        "firstName": "Theodora",
+        "lastName": "White",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/42.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "51ef9f57-d25e-42d6-8a78-78828c3acd44",
+        "email": "Brant93@yahoo.com",
+        "firstName": "Hilton",
+        "lastName": "Nolan",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1047.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "f1da5e54-c5a6-492f-a787-5a27792de1ed",
+        "email": "Bertha_Jenkins@gmail.com",
+        "firstName": "Gerson",
+        "lastName": "Toy",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1190.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "263f692b-078f-4198-a2e6-72bb61233d8c",
+        "email": "Agustin.Mitchell17@hotmail.com",
+        "firstName": "Garth",
+        "lastName": "Brekke",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/305.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "employee": [
+      {
+        "id": "a6f23ef9-b582-4516-baa9-11c7abb78dfb",
+        "first_name": "Emily",
+        "last_name": "Johnson",
+        "job_title": "Software Engineer",
+        "start_date": "2023-08-28T09:06:20.146Z",
+        "end_date": "2023-08-28T00:13:58.257Z",
+        "created_at": "2023-08-27T16:42:07.915Z",
+        "updated_at": "2023-08-27T21:16:58.080Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "09db4579-7044-4226-9adf-8dd0eb21b2bc",
+        "first_name": "Daniel",
+        "last_name": "Anderson",
+        "job_title": "Marketing Manager",
+        "start_date": "2023-08-27T18:24:45.693Z",
+        "end_date": "2023-08-28T06:28:56.859Z",
+        "created_at": "2023-08-27T11:37:51.577Z",
+        "updated_at": "2023-08-27T14:56:57.290Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "ec357a92-01e4-43b6-b04b-a1b9e85a517a",
+        "first_name": "Olivia",
+        "last_name": "Williams",
+        "job_title": "Sales Representative",
+        "start_date": "2023-08-28T08:31:46.123Z",
+        "end_date": "2023-08-27T23:59:01.012Z",
+        "created_at": "2023-08-28T02:23:19.108Z",
+        "updated_at": "2023-08-27T21:57:28.726Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "6e853015-4081-4dd0-923c-d0f90003d9d9",
+        "first_name": "Matthew",
+        "last_name": "Jones",
+        "job_title": "Accountant",
+        "start_date": "2023-08-27T09:56:08.236Z",
+        "end_date": "2023-08-28T09:29:40.499Z",
+        "created_at": "2023-08-27T13:27:46.809Z",
+        "updated_at": "2023-08-27T14:41:54.483Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "597c762b-d6f5-4ec6-86e1-d3093d7a4e1c",
+        "first_name": "Sophia",
+        "last_name": "Brown",
+        "job_title": "Human Resources Specialist",
+        "start_date": "2023-08-28T06:26:19.480Z",
+        "end_date": "2023-08-27T11:02:58.523Z",
+        "created_at": "2023-08-27T19:03:30.545Z",
+        "updated_at": "2023-08-27T16:23:25.395Z",
+        "company_id": "main_entity_pk"
+      }
+    ],
+    "vacation": [
+      {
+        "id": "c87bda93-a8c2-4420-966e-e8db23aa28ac",
+        "start_date": "2023-08-27T17:08:31.120Z",
+        "end_date": "2023-08-28T02:56:51.220Z",
+        "created_at": "2023-08-27T11:15:31.891Z",
+        "updated_at": "2023-08-28T03:52:06.752Z",
+        "employee_id": "ec357a92-01e4-43b6-b04b-a1b9e85a517a"
+      },
+      {
+        "id": "d75c8749-09a9-4c31-bf00-481a30eaeed4",
+        "start_date": "2023-08-28T05:16:53.473Z",
+        "end_date": "2023-08-28T04:06:56.127Z",
+        "created_at": "2023-08-28T08:34:19.592Z",
+        "updated_at": "2023-08-27T17:31:50.196Z",
+        "employee_id": "09db4579-7044-4226-9adf-8dd0eb21b2bc"
+      },
+      {
+        "id": "208ec4b4-d804-43c9-8091-2974e394fc5c",
+        "start_date": "2023-08-28T04:06:16.613Z",
+        "end_date": "2023-08-28T07:44:37.146Z",
+        "created_at": "2023-08-27T14:10:37.568Z",
+        "updated_at": "2023-08-27T22:37:38.489Z",
+        "employee_id": "597c762b-d6f5-4ec6-86e1-d3093d7a4e1c"
+      },
+      {
+        "id": "ce707e33-58f5-4033-8f77-8f22c7443a87",
+        "start_date": "2023-08-27T23:10:10.119Z",
+        "end_date": "2023-08-28T01:02:09.384Z",
+        "created_at": "2023-08-27T15:44:14.155Z",
+        "updated_at": "2023-08-27T22:05:21.756Z",
+        "employee_id": "ec357a92-01e4-43b6-b04b-a1b9e85a517a"
+      },
+      {
+        "id": "31c1f078-d5ce-4311-8816-fd9ddeea101c",
+        "start_date": "2023-08-27T10:21:51.345Z",
+        "end_date": "2023-08-27T22:36:39.990Z",
+        "created_at": "2023-08-27T14:49:58.656Z",
+        "updated_at": "2023-08-27T23:36:05.631Z",
+        "employee_id": "6e853015-4081-4dd0-923c-d0f90003d9d9"
+      }
+    ],
+    "payroll": [
+      {
+        "id": "a6a385e5-fa5a-41ef-a39e-22b03c4ac93f",
+        "salary": 97240,
+        "bonus": 80816,
+        "deductions": 76222,
+        "created_at": "2023-08-28T07:26:35.717Z",
+        "updated_at": "2023-08-27T18:28:19.740Z",
+        "employee_id": "597c762b-d6f5-4ec6-86e1-d3093d7a4e1c"
+      },
+      {
+        "id": "5193151a-cac6-414f-a49a-5949bdc1056e",
+        "salary": 79243,
+        "bonus": 47035,
+        "deductions": 24279,
+        "created_at": "2023-08-27T16:22:15.743Z",
+        "updated_at": "2023-08-28T01:13:44.262Z",
+        "employee_id": "a6f23ef9-b582-4516-baa9-11c7abb78dfb"
+      },
+      {
+        "id": "e3247f5b-8990-4720-a55e-9b6659c1e377",
+        "salary": 45760,
+        "bonus": 45808,
+        "deductions": 95300,
+        "created_at": "2023-08-28T05:47:18.779Z",
+        "updated_at": "2023-08-28T03:16:28.643Z",
+        "employee_id": "597c762b-d6f5-4ec6-86e1-d3093d7a4e1c"
+      },
+      {
+        "id": "233551f5-4f82-4c5a-a7c9-cca1e411c6a2",
+        "salary": 69154,
+        "bonus": 40131,
+        "deductions": 6484,
+        "created_at": "2023-08-28T02:09:29.219Z",
+        "updated_at": "2023-08-27T14:53:07.583Z",
+        "employee_id": "597c762b-d6f5-4ec6-86e1-d3093d7a4e1c"
+      },
+      {
+        "id": "a3e3a09e-edc4-411b-931b-c669845d932c",
+        "salary": 55685,
+        "bonus": 39823,
+        "deductions": 83393,
+        "created_at": "2023-08-27T13:44:52.870Z",
+        "updated_at": "2023-08-27T21:12:51.690Z",
+        "employee_id": "ec357a92-01e4-43b6-b04b-a1b9e85a517a"
+      }
+    ],
+    "benefit": [
+      {
+        "id": "97c3552b-6b77-42ae-894d-6c26827e27fc",
+        "type": "Health Insurance",
+        "description": "Comprehensive health coverage for employees and their families",
+        "value": 34489,
+        "created_at": "2023-08-27T15:11:43.548Z",
+        "updated_at": "2023-08-27T17:55:08.268Z",
+        "employee_id": "597c762b-d6f5-4ec6-86e1-d3093d7a4e1c"
+      },
+      {
+        "id": "f65843fd-38f4-41c2-a38e-37b11d3c318e",
+        "type": "401(k) Plan",
+        "description": "Retirement savings plan with employer matching",
+        "value": 58393,
+        "created_at": "2023-08-28T09:34:51.662Z",
+        "updated_at": "2023-08-27T21:18:53.207Z",
+        "employee_id": "597c762b-d6f5-4ec6-86e1-d3093d7a4e1c"
+      },
+      {
+        "id": "9f8ff381-0ada-4227-a2b1-5302c3e05484",
+        "type": "Paid Time Off",
+        "description": "Generous vacation and sick leave policy",
+        "value": 48114,
+        "created_at": "2023-08-27T17:01:45.658Z",
+        "updated_at": "2023-08-27T13:59:04.187Z",
+        "employee_id": "597c762b-d6f5-4ec6-86e1-d3093d7a4e1c"
+      },
+      {
+        "id": "8b20ec94-b0d1-40de-89c2-ba6f064feb0d",
+        "type": "Flexible Work Schedule",
+        "description": "Option to work remotely or adjust working hours",
+        "value": 42632,
+        "created_at": "2023-08-27T18:39:52.216Z",
+        "updated_at": "2023-08-28T00:16:25.745Z",
+        "employee_id": "09db4579-7044-4226-9adf-8dd0eb21b2bc"
+      },
+      {
+        "id": "19b04132-2e47-4915-9038-9076408e71b9",
+        "type": "Professional Development",
+        "description": "Opportunities for career growth and learning",
+        "value": 41937,
+        "created_at": "2023-08-28T05:57:58.626Z",
+        "updated_at": "2023-08-27T19:29:21.297Z",
+        "employee_id": "ec357a92-01e4-43b6-b04b-a1b9e85a517a"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "ac151640-a32b-4342-a479-63eb7568f8de",
+        "email": "Jazmin.Jakubowski4@gmail.com",
+        "firstName": "Erin",
+        "lastName": "Crona",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/93.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "75e5c9dd-870c-4c2d-a2f4-83f1869cd542",
+        "email": "Brooke_Rath90@hotmail.com",
+        "firstName": "Mikayla",
+        "lastName": "Stanton",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/25168070",
+        "tenantId": null
+      },
+      {
+        "reference": "fe0bec2d-bceb-4266-8222-1597dfd625fe",
+        "email": "Amara_Spencer5@gmail.com",
+        "firstName": "Darwin",
+        "lastName": "Wintheiser",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/90474497",
+        "tenantId": null
+      },
+      {
+        "reference": "3ea4d72e-b547-41f7-834f-4b5dc19cc7af",
+        "email": "Yasmin_Russel78@yahoo.com",
+        "firstName": "Emery",
+        "lastName": "Heathcote",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/89234202",
+        "tenantId": null
+      },
+      {
+        "reference": "889dd551-aabb-49fe-bfde-10f89961ac91",
+        "email": "Tony12@gmail.com",
+        "firstName": "Teagan",
+        "lastName": "King",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/14632670",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "employee": [
+      {
+        "id": "f6bd1519-6693-400c-ad14-0ddac36f2e3e",
+        "first_name": "Robert",
+        "last_name": "Johnson",
+        "job_title": "Software Engineer",
+        "start_date": "2023-08-28T05:14:41.150Z",
+        "end_date": "2023-08-27T17:03:30.997Z",
+        "created_at": "2023-08-27T13:36:00.160Z",
+        "updated_at": "2023-08-28T09:45:08.277Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "42868747-42ce-4351-8d87-c293314f53b1",
+        "first_name": "Jennifer",
+        "last_name": "Anderson",
+        "job_title": "Marketing Manager",
+        "start_date": "2023-08-28T09:45:47.751Z",
+        "end_date": "2023-08-28T01:42:16.873Z",
+        "created_at": "2023-08-27T14:55:34.369Z",
+        "updated_at": "2023-08-27T16:25:40.159Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "3a52ec5c-e0ff-4311-af03-8ed55ec88d87",
+        "first_name": "Christopher",
+        "last_name": "Martinez",
+        "job_title": "Sales Representative",
+        "start_date": "2023-08-28T03:22:23.703Z",
+        "end_date": "2023-08-28T05:25:18.370Z",
+        "created_at": "2023-08-28T03:16:51.567Z",
+        "updated_at": "2023-08-27T17:08:52.244Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "9277dbb1-6249-4fcc-b8b9-4421413d2e84",
+        "first_name": "Emily",
+        "last_name": "Taylor",
+        "job_title": "Human Resources Specialist",
+        "start_date": "2023-08-28T04:42:54.688Z",
+        "end_date": "2023-08-27T10:44:08.897Z",
+        "created_at": "2023-08-27T15:42:29.176Z",
+        "updated_at": "2023-08-27T17:03:09.302Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "c0ac8da2-62a2-49e1-a5be-b4e31ac08063",
+        "first_name": "Daniel",
+        "last_name": "Hernandez",
+        "job_title": "Financial Analyst",
+        "start_date": "2023-08-27T18:37:13.061Z",
+        "end_date": "2023-08-27T16:47:05.799Z",
+        "created_at": "2023-08-27T10:50:53.314Z",
+        "updated_at": "2023-08-27T13:16:27.746Z",
+        "company_id": "main_entity_pk"
+      }
+    ],
+    "vacation": [
+      {
+        "id": "dd1cc633-a914-4deb-88e9-1ed6c01f6d1e",
+        "start_date": "2023-08-27T14:50:04.973Z",
+        "end_date": "2023-08-28T03:16:27.417Z",
+        "created_at": "2023-08-28T09:21:26.715Z",
+        "updated_at": "2023-08-28T06:13:24.387Z",
+        "employee_id": "9277dbb1-6249-4fcc-b8b9-4421413d2e84"
+      },
+      {
+        "id": "79d7d660-df5b-4964-a2bc-2b68fc576b99",
+        "start_date": "2023-08-27T18:14:16.897Z",
+        "end_date": "2023-08-27T15:56:45.088Z",
+        "created_at": "2023-08-27T15:46:09.660Z",
+        "updated_at": "2023-08-28T04:13:04.169Z",
+        "employee_id": "3a52ec5c-e0ff-4311-af03-8ed55ec88d87"
+      },
+      {
+        "id": "5dfe0690-0dd5-47bc-ac8d-ec1300a4a622",
+        "start_date": "2023-08-27T23:38:47.936Z",
+        "end_date": "2023-08-27T19:49:55.299Z",
+        "created_at": "2023-08-27T20:48:59.849Z",
+        "updated_at": "2023-08-28T07:47:47.641Z",
+        "employee_id": "f6bd1519-6693-400c-ad14-0ddac36f2e3e"
+      },
+      {
+        "id": "5ecaf27f-5646-4c02-a7eb-68f5f6b968fd",
+        "start_date": "2023-08-27T21:16:17.983Z",
+        "end_date": "2023-08-27T12:34:58.901Z",
+        "created_at": "2023-08-27T12:05:12.894Z",
+        "updated_at": "2023-08-27T22:20:50.436Z",
+        "employee_id": "42868747-42ce-4351-8d87-c293314f53b1"
+      },
+      {
+        "id": "7048a9e6-e1fd-4c7c-8241-28b71317befd",
+        "start_date": "2023-08-27T12:32:54.603Z",
+        "end_date": "2023-08-27T12:27:39.926Z",
+        "created_at": "2023-08-28T02:26:11.741Z",
+        "updated_at": "2023-08-27T21:18:55.787Z",
+        "employee_id": "3a52ec5c-e0ff-4311-af03-8ed55ec88d87"
+      }
+    ],
+    "payroll": [
+      {
+        "id": "c0ea2f56-1e0d-4d09-b2a4-322c4977b8c7",
+        "salary": 22619,
+        "bonus": 92958,
+        "deductions": 58508,
+        "created_at": "2023-08-28T03:36:09.999Z",
+        "updated_at": "2023-08-28T00:44:53.135Z",
+        "employee_id": "9277dbb1-6249-4fcc-b8b9-4421413d2e84"
+      },
+      {
+        "id": "fb097abd-ca30-4f3e-9963-77b0a604fc3b",
+        "salary": 49419,
+        "bonus": 9998,
+        "deductions": 33671,
+        "created_at": "2023-08-27T14:03:57.542Z",
+        "updated_at": "2023-08-27T19:38:27.477Z",
+        "employee_id": "3a52ec5c-e0ff-4311-af03-8ed55ec88d87"
+      },
+      {
+        "id": "e57029dd-290a-4c63-8df5-1304bb93fcf5",
+        "salary": 93495,
+        "bonus": 65561,
+        "deductions": 40384,
+        "created_at": "2023-08-28T02:52:00.938Z",
+        "updated_at": "2023-08-27T19:46:18.207Z",
+        "employee_id": "c0ac8da2-62a2-49e1-a5be-b4e31ac08063"
+      },
+      {
+        "id": "063f4738-fa3d-4018-83a2-87167e9358a0",
+        "salary": 39685,
+        "bonus": 56141,
+        "deductions": 92971,
+        "created_at": "2023-08-27T16:08:13.897Z",
+        "updated_at": "2023-08-28T02:34:24.090Z",
+        "employee_id": "f6bd1519-6693-400c-ad14-0ddac36f2e3e"
+      },
+      {
+        "id": "ffe52fd2-22c1-4621-ae42-dc839bb73bed",
+        "salary": 80606,
+        "bonus": 98528,
+        "deductions": 90576,
+        "created_at": "2023-08-27T19:03:54.982Z",
+        "updated_at": "2023-08-28T03:39:16.293Z",
+        "employee_id": "f6bd1519-6693-400c-ad14-0ddac36f2e3e"
+      }
+    ],
+    "benefit": [
+      {
+        "id": "0ec3357c-261c-43d2-bc0b-7da8dd7685e2",
+        "type": "Health Insurance",
+        "description": "Comprehensive health coverage for employees and their families",
+        "value": 70212,
+        "created_at": "2023-08-27T09:49:42.176Z",
+        "updated_at": "2023-08-28T05:16:59.684Z",
+        "employee_id": "9277dbb1-6249-4fcc-b8b9-4421413d2e84"
+      },
+      {
+        "id": "250af52b-04de-4771-8895-938ef5a397a1",
+        "type": "Retirement Plan",
+        "description": "401(k) matching program for long-term financial security",
+        "value": 89879,
+        "created_at": "2023-08-27T14:26:11.873Z",
+        "updated_at": "2023-08-27T11:53:45.279Z",
+        "employee_id": "42868747-42ce-4351-8d87-c293314f53b1"
+      },
+      {
+        "id": "8a8b4672-ebd4-41cd-82b2-c779ae67f8fc",
+        "type": "Paid Time Off",
+        "description": "Generous vacation and sick leave policies",
+        "value": 26618,
+        "created_at": "2023-08-27T21:40:22.256Z",
+        "updated_at": "2023-08-28T07:00:13.648Z",
+        "employee_id": "3a52ec5c-e0ff-4311-af03-8ed55ec88d87"
+      },
+      {
+        "id": "ff9188dc-bf6b-43fe-bb95-4b569ecfca59",
+        "type": "Flexible Work Schedule",
+        "description": "Opportunity to work remotely and manage your own schedule",
+        "value": 98892,
+        "created_at": "2023-08-28T01:28:35.819Z",
+        "updated_at": "2023-08-27T11:50:14.282Z",
+        "employee_id": "f6bd1519-6693-400c-ad14-0ddac36f2e3e"
+      },
+      {
+        "id": "94d113b4-d340-45e7-a278-487d36cc70ed",
+        "type": "Professional Development",
+        "description": "Access to training and workshops to enhance skills and career growth",
+        "value": 92779,
+        "created_at": "2023-08-28T00:42:22.351Z",
+        "updated_at": "2023-08-27T14:30:29.222Z",
+        "employee_id": "3a52ec5c-e0ff-4311-af03-8ed55ec88d87"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "352f5ebd-7d68-4431-9f31-e1a046c3eeba",
+        "email": "Jacey34@hotmail.com",
+        "firstName": "Martin",
+        "lastName": "Schulist",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/724.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "6fb71ad3-6edd-4a1e-b759-6d40c97a3233",
+        "email": "Isabell_Schinner@gmail.com",
+        "firstName": "Coby",
+        "lastName": "Bartell",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/148.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "9ce24839-7c64-47d2-aa92-a13b783d32b8",
+        "email": "Edgardo.Friesen@yahoo.com",
+        "firstName": "Halle",
+        "lastName": "Ryan",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/204.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "6451f627-042f-4d8a-89b0-28b8e4cb3c45",
+        "email": "Declan_Bode@hotmail.com",
+        "firstName": "Elissa",
+        "lastName": "Rice",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/32722584",
+        "tenantId": null
+      },
+      {
+        "reference": "d6853073-f25a-4493-aead-a26bfbf9e21c",
+        "email": "Cleveland_Botsford55@yahoo.com",
+        "firstName": "Paris",
+        "lastName": "Hessel-Connelly",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/77123566",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "employee": [
+      {
+        "id": "94e25651-4570-4252-88ca-afd06f8aabb1",
+        "first_name": "Adam",
+        "last_name": "Johnson",
+        "job_title": "Software Engineer",
+        "start_date": "2023-08-27T13:07:04.462Z",
+        "end_date": "2023-08-27T18:21:51.356Z",
+        "created_at": "2023-08-27T21:42:24.108Z",
+        "updated_at": "2023-08-27T11:11:34.194Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "1ad630f5-1f83-498b-8b09-e93a8fcf1891",
+        "first_name": "Emily",
+        "last_name": "Anderson",
+        "job_title": "Marketing Manager",
+        "start_date": "2023-08-28T03:58:39.456Z",
+        "end_date": "2023-08-28T08:30:57.587Z",
+        "created_at": "2023-08-28T02:17:37.732Z",
+        "updated_at": "2023-08-28T00:40:39.558Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "17a70ff9-83e7-464c-9e56-6d132eb09a95",
+        "first_name": "Daniel",
+        "last_name": "Williams",
+        "job_title": "Financial Analyst",
+        "start_date": "2023-08-27T22:01:03.147Z",
+        "end_date": "2023-08-27T23:48:05.199Z",
+        "created_at": "2023-08-27T21:45:33.908Z",
+        "updated_at": "2023-08-27T14:04:38.600Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "257024fc-639d-4aed-8a8f-66dd9e99574e",
+        "first_name": "Olivia",
+        "last_name": "Brown",
+        "job_title": "HR Coordinator",
+        "start_date": "2023-08-27T15:09:05.682Z",
+        "end_date": "2023-08-27T15:32:56.515Z",
+        "created_at": "2023-08-27T18:08:50.250Z",
+        "updated_at": "2023-08-28T09:26:13.293Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "425b7d15-cb49-49a2-9a88-90757b02bb0a",
+        "first_name": "Jacob",
+        "last_name": "Taylor",
+        "job_title": "Operations Specialist",
+        "start_date": "2023-08-28T08:55:02.114Z",
+        "end_date": "2023-08-28T07:15:47.503Z",
+        "created_at": "2023-08-27T10:06:44.950Z",
+        "updated_at": "2023-08-27T14:10:23.586Z",
+        "company_id": "main_entity_pk"
+      }
+    ],
+    "vacation": [
+      {
+        "id": "700e7be3-8635-44ab-bacc-996d28ba9335",
+        "start_date": "2023-08-28T05:59:47.055Z",
+        "end_date": "2023-08-27T23:17:33.819Z",
+        "created_at": "2023-08-27T11:01:33.785Z",
+        "updated_at": "2023-08-27T12:36:14.024Z",
+        "employee_id": "257024fc-639d-4aed-8a8f-66dd9e99574e"
+      },
+      {
+        "id": "0d7a9cf7-f3e4-420d-b89a-2c0278dfa5fe",
+        "start_date": "2023-08-27T12:36:04.738Z",
+        "end_date": "2023-08-28T01:43:55.219Z",
+        "created_at": "2023-08-28T00:46:15.040Z",
+        "updated_at": "2023-08-27T15:22:40.482Z",
+        "employee_id": "17a70ff9-83e7-464c-9e56-6d132eb09a95"
+      },
+      {
+        "id": "fb844296-6031-4e68-8c5a-19e5ec99a638",
+        "start_date": "2023-08-27T17:42:11.000Z",
+        "end_date": "2023-08-27T23:23:04.569Z",
+        "created_at": "2023-08-28T07:18:09.594Z",
+        "updated_at": "2023-08-28T09:00:12.571Z",
+        "employee_id": "94e25651-4570-4252-88ca-afd06f8aabb1"
+      },
+      {
+        "id": "55f4188d-ff37-4e55-8052-24057fe3568e",
+        "start_date": "2023-08-27T21:05:24.483Z",
+        "end_date": "2023-08-27T09:55:31.153Z",
+        "created_at": "2023-08-27T15:07:17.603Z",
+        "updated_at": "2023-08-27T20:42:47.774Z",
+        "employee_id": "17a70ff9-83e7-464c-9e56-6d132eb09a95"
+      },
+      {
+        "id": "0ebcbdef-0118-4325-9ece-e0ecbcda7bda",
+        "start_date": "2023-08-27T16:18:57.515Z",
+        "end_date": "2023-08-28T06:31:30.966Z",
+        "created_at": "2023-08-27T22:12:58.438Z",
+        "updated_at": "2023-08-27T21:33:07.616Z",
+        "employee_id": "94e25651-4570-4252-88ca-afd06f8aabb1"
+      }
+    ],
+    "payroll": [
+      {
+        "id": "42167e70-8cda-4601-9625-a9d54a6c97cb",
+        "salary": 54667,
+        "bonus": 95827,
+        "deductions": 8315,
+        "created_at": "2023-08-28T08:47:41.197Z",
+        "updated_at": "2023-08-27T11:01:26.240Z",
+        "employee_id": "1ad630f5-1f83-498b-8b09-e93a8fcf1891"
+      },
+      {
+        "id": "1e8e56cb-6471-4e89-b8bc-4250b3fda435",
+        "salary": 65166,
+        "bonus": 59330,
+        "deductions": 46842,
+        "created_at": "2023-08-28T06:48:15.504Z",
+        "updated_at": "2023-08-27T20:49:09.184Z",
+        "employee_id": "94e25651-4570-4252-88ca-afd06f8aabb1"
+      },
+      {
+        "id": "cdfb8d08-5534-4dc0-a156-f80fd6aeee2a",
+        "salary": 77320,
+        "bonus": 99821,
+        "deductions": 44339,
+        "created_at": "2023-08-28T03:31:21.169Z",
+        "updated_at": "2023-08-27T23:27:00.372Z",
+        "employee_id": "1ad630f5-1f83-498b-8b09-e93a8fcf1891"
+      },
+      {
+        "id": "ff014d8c-e49c-4de2-8d8e-3a9681da5dae",
+        "salary": 4412,
+        "bonus": 40894,
+        "deductions": 7041,
+        "created_at": "2023-08-27T15:44:27.406Z",
+        "updated_at": "2023-08-28T07:48:47.969Z",
+        "employee_id": "17a70ff9-83e7-464c-9e56-6d132eb09a95"
+      },
+      {
+        "id": "5b8cd0d4-4715-4f07-9ca7-ceaa7a5e4306",
+        "salary": 33653,
+        "bonus": 67131,
+        "deductions": 26199,
+        "created_at": "2023-08-28T00:15:04.688Z",
+        "updated_at": "2023-08-28T09:32:28.961Z",
+        "employee_id": "257024fc-639d-4aed-8a8f-66dd9e99574e"
+      }
+    ],
+    "benefit": [
+      {
+        "id": "56c8d3d6-8835-4d33-9c13-00df35bae239",
+        "type": "Health Insurance",
+        "description": "Comprehensive health coverage for you and your family",
+        "value": 69264,
+        "created_at": "2023-08-27T10:58:16.643Z",
+        "updated_at": "2023-08-28T00:32:28.952Z",
+        "employee_id": "1ad630f5-1f83-498b-8b09-e93a8fcf1891"
+      },
+      {
+        "id": "acbe02c2-5880-4d3d-a18a-85324cb423ff",
+        "type": "Retirement Plan",
+        "description": "A retirement plan with employer matching contributions",
+        "value": 67507,
+        "created_at": "2023-08-27T16:10:15.252Z",
+        "updated_at": "2023-08-28T06:26:45.358Z",
+        "employee_id": "94e25651-4570-4252-88ca-afd06f8aabb1"
+      },
+      {
+        "id": "3a32b918-6047-46d6-9b99-830db53f5ab8",
+        "type": "Paid Time Off",
+        "description": "Generous vacation and sick leave policies",
+        "value": 19200,
+        "created_at": "2023-08-27T10:07:35.366Z",
+        "updated_at": "2023-08-27T19:24:51.053Z",
+        "employee_id": "257024fc-639d-4aed-8a8f-66dd9e99574e"
+      },
+      {
+        "id": "4ba9926e-8e90-4a7c-ab0b-6ecff9e2afcb",
+        "type": "Flexible Work Schedule",
+        "description": "Flexible work hours to accommodate your needs",
+        "value": 40301,
+        "created_at": "2023-08-28T02:48:30.272Z",
+        "updated_at": "2023-08-27T19:13:58.150Z",
+        "employee_id": "17a70ff9-83e7-464c-9e56-6d132eb09a95"
+      },
+      {
+        "id": "82d6f5f6-8d5a-4af3-94f8-eb5cbb321576",
+        "type": "Employee Wellness Program",
+        "description": "Wellness initiatives to support your physical and mental well-being",
+        "value": 70331,
+        "created_at": "2023-08-27T23:30:57.416Z",
+        "updated_at": "2023-08-27T10:08:14.065Z",
+        "employee_id": "17a70ff9-83e7-464c-9e56-6d132eb09a95"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "3d73b643-f7bf-4168-87d0-50e441e08177",
+        "email": "Cyrus_Braun@gmail.com",
+        "firstName": "Stephany",
+        "lastName": "Larson",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/80491285",
+        "tenantId": null
+      },
+      {
+        "reference": "ea233f4e-147e-48b0-bb03-21cf1e471baf",
+        "email": "Henry54@hotmail.com",
+        "firstName": "Yvonne",
+        "lastName": "Welch",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/52365142",
+        "tenantId": null
+      },
+      {
+        "reference": "958987b8-83b6-4d55-8707-f0f3fd66a61b",
+        "email": "Edwardo62@yahoo.com",
+        "firstName": "Isadore",
+        "lastName": "Homenick",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/148.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "c285bb9d-68d3-4e4d-a4b0-89b1c85b54b0",
+        "email": "America.Cremin@hotmail.com",
+        "firstName": "Yolanda",
+        "lastName": "Frami",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/57473901",
+        "tenantId": null
+      },
+      {
+        "reference": "a18482e1-38b8-46c0-9ac8-30bc3cdb491c",
+        "email": "Germaine56@gmail.com",
+        "firstName": "Jarod",
+        "lastName": "Cummings",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/272.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "employee": [
+      {
+        "id": "d8166593-a40b-41cf-be44-eab1eb625651",
+        "first_name": "Emily",
+        "last_name": "Anderson",
+        "job_title": "Software Engineer",
+        "start_date": "2023-08-28T00:14:59.942Z",
+        "end_date": "2023-08-27T10:27:52.667Z",
+        "created_at": "2023-08-28T00:25:35.526Z",
+        "updated_at": "2023-08-27T16:42:27.979Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "49759e07-2b17-44c0-8dbd-db00b097cc63",
+        "first_name": "James",
+        "last_name": "Taylor",
+        "job_title": "Marketing Manager",
+        "start_date": "2023-08-28T03:46:33.432Z",
+        "end_date": "2023-08-27T22:44:50.041Z",
+        "created_at": "2023-08-27T16:41:27.269Z",
+        "updated_at": "2023-08-27T20:06:21.083Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "786c6607-ac1d-42e5-bf3f-ef3a17fe6f27",
+        "first_name": "Olivia",
+        "last_name": "Clark",
+        "job_title": "Financial Analyst",
+        "start_date": "2023-08-28T07:51:17.813Z",
+        "end_date": "2023-08-27T12:35:51.942Z",
+        "created_at": "2023-08-27T11:02:06.767Z",
+        "updated_at": "2023-08-27T22:50:58.620Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "8f3ada84-e450-4c95-b647-28cb102bb82a",
+        "first_name": "Daniel",
+        "last_name": "Harris",
+        "job_title": "HR Specialist",
+        "start_date": "2023-08-27T17:41:34.247Z",
+        "end_date": "2023-08-27T23:58:12.592Z",
+        "created_at": "2023-08-28T07:36:14.227Z",
+        "updated_at": "2023-08-28T07:47:00.938Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "1ab19a7b-fcc9-41b4-a707-4d74719458c6",
+        "first_name": "Sophia",
+        "last_name": "Lee",
+        "job_title": "Sales Representative",
+        "start_date": "2023-08-27T09:53:04.343Z",
+        "end_date": "2023-08-27T15:36:41.761Z",
+        "created_at": "2023-08-27T15:13:44.722Z",
+        "updated_at": "2023-08-28T07:00:08.123Z",
+        "company_id": "main_entity_pk"
+      }
+    ],
+    "vacation": [
+      {
+        "id": "c23adf71-2507-47b7-a14c-dffedf65ff0e",
+        "start_date": "2023-08-27T16:30:41.373Z",
+        "end_date": "2023-08-27T21:06:31.201Z",
+        "created_at": "2023-08-27T16:33:23.728Z",
+        "updated_at": "2023-08-28T08:03:05.767Z",
+        "employee_id": "786c6607-ac1d-42e5-bf3f-ef3a17fe6f27"
+      },
+      {
+        "id": "355bc24b-fc28-4cda-9d41-4e103bb6c257",
+        "start_date": "2023-08-27T20:27:20.230Z",
+        "end_date": "2023-08-27T16:10:28.701Z",
+        "created_at": "2023-08-27T18:06:30.917Z",
+        "updated_at": "2023-08-28T00:26:45.855Z",
+        "employee_id": "786c6607-ac1d-42e5-bf3f-ef3a17fe6f27"
+      },
+      {
+        "id": "e9e8054b-e1b8-4706-acb5-0959ae6cceb5",
+        "start_date": "2023-08-28T02:01:49.172Z",
+        "end_date": "2023-08-28T00:34:57.863Z",
+        "created_at": "2023-08-27T10:39:28.439Z",
+        "updated_at": "2023-08-27T16:49:31.770Z",
+        "employee_id": "786c6607-ac1d-42e5-bf3f-ef3a17fe6f27"
+      },
+      {
+        "id": "0f6e663b-32bb-4a78-ab10-8d9b525a524e",
+        "start_date": "2023-08-28T08:54:44.592Z",
+        "end_date": "2023-08-28T03:42:46.889Z",
+        "created_at": "2023-08-27T15:20:22.589Z",
+        "updated_at": "2023-08-28T03:35:37.323Z",
+        "employee_id": "1ab19a7b-fcc9-41b4-a707-4d74719458c6"
+      },
+      {
+        "id": "28c2778d-a306-4ea6-978b-38314aedc705",
+        "start_date": "2023-08-28T01:32:13.021Z",
+        "end_date": "2023-08-28T07:49:39.875Z",
+        "created_at": "2023-08-28T07:25:34.260Z",
+        "updated_at": "2023-08-27T19:27:18.332Z",
+        "employee_id": "d8166593-a40b-41cf-be44-eab1eb625651"
+      }
+    ],
+    "payroll": [
+      {
+        "id": "69de808f-7815-402b-b90e-8dfec3041397",
+        "salary": 10450,
+        "bonus": 24781,
+        "deductions": 91964,
+        "created_at": "2023-08-27T13:25:47.839Z",
+        "updated_at": "2023-08-28T09:09:08.145Z",
+        "employee_id": "8f3ada84-e450-4c95-b647-28cb102bb82a"
+      },
+      {
+        "id": "1ec7a9e3-631e-494f-a156-60c5c82019d2",
+        "salary": 72662,
+        "bonus": 72050,
+        "deductions": 14929,
+        "created_at": "2023-08-27T13:11:28.732Z",
+        "updated_at": "2023-08-28T04:16:46.352Z",
+        "employee_id": "1ab19a7b-fcc9-41b4-a707-4d74719458c6"
+      },
+      {
+        "id": "23c6d768-ccdf-40a3-965c-dc33f8a1120e",
+        "salary": 94112,
+        "bonus": 34074,
+        "deductions": 17914,
+        "created_at": "2023-08-27T20:05:18.432Z",
+        "updated_at": "2023-08-27T22:25:23.469Z",
+        "employee_id": "1ab19a7b-fcc9-41b4-a707-4d74719458c6"
+      },
+      {
+        "id": "3199468e-ec95-469f-840d-c8c1c8c2ee1a",
+        "salary": 8420,
+        "bonus": 78692,
+        "deductions": 14131,
+        "created_at": "2023-08-27T16:44:14.966Z",
+        "updated_at": "2023-08-27T17:27:13.659Z",
+        "employee_id": "8f3ada84-e450-4c95-b647-28cb102bb82a"
+      },
+      {
+        "id": "c013bb34-bb67-4603-ad18-85c98d5a87a5",
+        "salary": 87386,
+        "bonus": 47878,
+        "deductions": 79615,
+        "created_at": "2023-08-28T00:45:43.888Z",
+        "updated_at": "2023-08-27T23:09:56.460Z",
+        "employee_id": "8f3ada84-e450-4c95-b647-28cb102bb82a"
+      }
+    ],
+    "benefit": [
+      {
+        "id": "2e7ae140-e58d-4505-8734-1a536c30d2a6",
+        "type": "Health Insurance",
+        "description": "Comprehensive health coverage for employees and their families",
+        "value": 4421,
+        "created_at": "2023-08-28T05:27:13.438Z",
+        "updated_at": "2023-08-28T03:39:57.894Z",
+        "employee_id": "1ab19a7b-fcc9-41b4-a707-4d74719458c6"
+      },
+      {
+        "id": "2ebaff1c-6963-4744-9951-e73f5ff9d811",
+        "type": "Retirement Plan",
+        "description": "Generous retirement savings options",
+        "value": 48711,
+        "created_at": "2023-08-27T11:37:45.217Z",
+        "updated_at": "2023-08-28T05:30:41.639Z",
+        "employee_id": "786c6607-ac1d-42e5-bf3f-ef3a17fe6f27"
+      },
+      {
+        "id": "1d98b8a7-b9f4-4f7d-b807-35e4b4856878",
+        "type": "Paid Time Off",
+        "description": "Flexible vacation policy",
+        "value": 11002,
+        "created_at": "2023-08-27T12:20:06.013Z",
+        "updated_at": "2023-08-28T01:38:55.571Z",
+        "employee_id": "d8166593-a40b-41cf-be44-eab1eb625651"
+      },
+      {
+        "id": "9640d299-205a-49f0-b3ab-41d85a76e992",
+        "type": "Employee Discounts",
+        "description": "Exclusive discounts on products and services",
+        "value": 88839,
+        "created_at": "2023-08-27T22:06:46.413Z",
+        "updated_at": "2023-08-28T02:24:07.852Z",
+        "employee_id": "49759e07-2b17-44c0-8dbd-db00b097cc63"
+      },
+      {
+        "id": "12b59383-e439-49c8-b575-ee1f240a9a9b",
+        "type": "Professional Development",
+        "description": "Opportunities for career growth and skill enhancement",
+        "value": 69942,
+        "created_at": "2023-08-27T21:54:54.054Z",
+        "updated_at": "2023-08-28T03:13:56.103Z",
+        "employee_id": "49759e07-2b17-44c0-8dbd-db00b097cc63"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "168c68c5-0160-42f0-a91a-9d8dff35587f",
+        "email": "Isabell67@yahoo.com",
+        "firstName": "Axel",
+        "lastName": "Durgan",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/752.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "64265246-8eba-4fc8-80e7-66c191613587",
+        "email": "Ariane_Nitzsche75@gmail.com",
+        "firstName": "Everette",
+        "lastName": "Pfeffer",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/70522812",
+        "tenantId": null
+      },
+      {
+        "reference": "860926b8-58c1-4741-8614-70f138d0992d",
+        "email": "Erin_Pollich@yahoo.com",
+        "firstName": "Kendall",
+        "lastName": "Bahringer-Bernier",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/76395327",
+        "tenantId": null
+      },
+      {
+        "reference": "a4656929-298f-423b-ad4e-6b3e011e7ad0",
+        "email": "Lynn1@yahoo.com",
+        "firstName": "Terrell",
+        "lastName": "Crooks",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/21740821",
+        "tenantId": null
+      },
+      {
+        "reference": "14cd3998-88e4-497d-bc9f-37f3bf643cf0",
+        "email": "Nayeli.Weissnat-Torphy@gmail.com",
+        "firstName": "Alejandra",
+        "lastName": "Stoltenberg",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/725.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "employee": [
+      {
+        "id": "81c62386-5000-4f2d-b2a4-0e4074a2d23f",
+        "first_name": "David",
+        "last_name": "Johnson",
+        "job_title": "Software Engineer",
+        "start_date": "2023-08-27T22:57:55.920Z",
+        "end_date": "2023-08-27T11:21:39.970Z",
+        "created_at": "2023-08-27T21:36:13.276Z",
+        "updated_at": "2023-08-28T09:34:47.376Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "2b021c76-c028-4d62-a032-8924e2f412ab",
+        "first_name": "Emily",
+        "last_name": "Anderson",
+        "job_title": "Marketing Specialist",
+        "start_date": "2023-08-27T15:20:58.696Z",
+        "end_date": "2023-08-28T03:33:33.090Z",
+        "created_at": "2023-08-28T01:18:00.215Z",
+        "updated_at": "2023-08-27T10:53:12.921Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "c17f0914-2567-4929-bb27-4859c8476a04",
+        "first_name": "Andrew",
+        "last_name": "Thompson",
+        "job_title": "Sales Manager",
+        "start_date": "2023-08-27T15:04:29.147Z",
+        "end_date": "2023-08-27T10:05:32.666Z",
+        "created_at": "2023-08-28T03:40:45.259Z",
+        "updated_at": "2023-08-28T01:10:33.923Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "d9803fed-6eba-46cb-8e9e-3da1881c008f",
+        "first_name": "Olivia",
+        "last_name": "Harris",
+        "job_title": "HR Coordinator",
+        "start_date": "2023-08-28T06:08:15.500Z",
+        "end_date": "2023-08-27T21:01:10.502Z",
+        "created_at": "2023-08-27T17:50:47.835Z",
+        "updated_at": "2023-08-27T13:27:02.614Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "f6135a84-370b-42ec-bdd5-723b1f3b75dd",
+        "first_name": "Daniel",
+        "last_name": "Walker",
+        "job_title": "Financial Analyst",
+        "start_date": "2023-08-28T01:38:44.918Z",
+        "end_date": "2023-08-27T15:52:13.250Z",
+        "created_at": "2023-08-27T11:39:58.858Z",
+        "updated_at": "2023-08-28T04:07:10.393Z",
+        "company_id": "main_entity_pk"
+      }
+    ],
+    "vacation": [
+      {
+        "id": "d309abc7-4d73-4a47-8ff5-cd80a4c9057f",
+        "start_date": "2023-08-28T04:16:42.251Z",
+        "end_date": "2023-08-27T13:21:48.851Z",
+        "created_at": "2023-08-28T05:39:02.967Z",
+        "updated_at": "2023-08-27T22:25:14.683Z",
+        "employee_id": "2b021c76-c028-4d62-a032-8924e2f412ab"
+      },
+      {
+        "id": "44147e3b-c2aa-4889-80de-7d9105ed3783",
+        "start_date": "2023-08-28T08:08:33.105Z",
+        "end_date": "2023-08-28T04:22:08.334Z",
+        "created_at": "2023-08-27T19:01:03.869Z",
+        "updated_at": "2023-08-28T05:48:51.255Z",
+        "employee_id": "c17f0914-2567-4929-bb27-4859c8476a04"
+      },
+      {
+        "id": "0dc8ab0d-c987-44db-807f-c421e6748389",
+        "start_date": "2023-08-27T10:04:17.590Z",
+        "end_date": "2023-08-27T12:53:28.965Z",
+        "created_at": "2023-08-28T08:36:51.378Z",
+        "updated_at": "2023-08-27T11:07:19.342Z",
+        "employee_id": "2b021c76-c028-4d62-a032-8924e2f412ab"
+      },
+      {
+        "id": "2990a963-bba4-4ff1-96c6-d9fc1879ca3c",
+        "start_date": "2023-08-27T13:14:36.929Z",
+        "end_date": "2023-08-27T12:31:27.617Z",
+        "created_at": "2023-08-28T03:57:17.098Z",
+        "updated_at": "2023-08-27T17:36:21.867Z",
+        "employee_id": "f6135a84-370b-42ec-bdd5-723b1f3b75dd"
+      },
+      {
+        "id": "f1a93283-def5-4672-a445-27afeae9609c",
+        "start_date": "2023-08-27T21:25:34.247Z",
+        "end_date": "2023-08-28T07:26:59.781Z",
+        "created_at": "2023-08-27T20:40:24.357Z",
+        "updated_at": "2023-08-28T00:33:02.055Z",
+        "employee_id": "f6135a84-370b-42ec-bdd5-723b1f3b75dd"
+      }
+    ],
+    "payroll": [
+      {
+        "id": "1709759f-f6cd-40ae-b12a-923c1365ad19",
+        "salary": 78423,
+        "bonus": 80261,
+        "deductions": 87399,
+        "created_at": "2023-08-28T05:17:58.445Z",
+        "updated_at": "2023-08-27T19:04:22.211Z",
+        "employee_id": "c17f0914-2567-4929-bb27-4859c8476a04"
+      },
+      {
+        "id": "ce998e07-7137-4b4f-8c92-59ee8805d650",
+        "salary": 9853,
+        "bonus": 40978,
+        "deductions": 23822,
+        "created_at": "2023-08-27T10:06:53.089Z",
+        "updated_at": "2023-08-28T07:36:26.209Z",
+        "employee_id": "2b021c76-c028-4d62-a032-8924e2f412ab"
+      },
+      {
+        "id": "b0a42ec5-8e4b-4c09-ae75-14470add1cb2",
+        "salary": 33548,
+        "bonus": 59594,
+        "deductions": 83530,
+        "created_at": "2023-08-27T12:42:55.655Z",
+        "updated_at": "2023-08-27T12:49:49.529Z",
+        "employee_id": "d9803fed-6eba-46cb-8e9e-3da1881c008f"
+      },
+      {
+        "id": "8c608dbf-95c6-478a-8e5b-39556d18a87c",
+        "salary": 65134,
+        "bonus": 65949,
+        "deductions": 34476,
+        "created_at": "2023-08-27T16:39:48.265Z",
+        "updated_at": "2023-08-27T13:18:13.421Z",
+        "employee_id": "81c62386-5000-4f2d-b2a4-0e4074a2d23f"
+      },
+      {
+        "id": "126673b5-af53-428c-b13f-7fac13250528",
+        "salary": 73256,
+        "bonus": 96724,
+        "deductions": 65989,
+        "created_at": "2023-08-27T18:11:54.190Z",
+        "updated_at": "2023-08-27T17:14:53.097Z",
+        "employee_id": "d9803fed-6eba-46cb-8e9e-3da1881c008f"
+      }
+    ],
+    "benefit": [
+      {
+        "id": "a56dab98-bcf5-43be-8ac1-a4a39e0d1a9d",
+        "type": "Health Insurance",
+        "description": "Comprehensive health insurance coverage for employees and their families",
+        "value": 35894,
+        "created_at": "2023-08-27T22:39:40.056Z",
+        "updated_at": "2023-08-27T15:20:11.394Z",
+        "employee_id": "81c62386-5000-4f2d-b2a4-0e4074a2d23f"
+      },
+      {
+        "id": "43bdc02f-e690-406e-b1a0-18f6ff9b7786",
+        "type": "401(k) Plan",
+        "description": "Retirement savings plan with employer matching contributions",
+        "value": 27591,
+        "created_at": "2023-08-27T23:11:14.288Z",
+        "updated_at": "2023-08-28T02:27:55.368Z",
+        "employee_id": "c17f0914-2567-4929-bb27-4859c8476a04"
+      },
+      {
+        "id": "3393d3c3-5f1a-41c6-ba0e-92b6a919c667",
+        "type": "Paid Time Off",
+        "description": "Generous vacation and sick leave policies",
+        "value": 81342,
+        "created_at": "2023-08-28T04:57:00.504Z",
+        "updated_at": "2023-08-27T14:15:05.145Z",
+        "employee_id": "f6135a84-370b-42ec-bdd5-723b1f3b75dd"
+      },
+      {
+        "id": "51c9a1af-0062-4867-863c-1f24eb50c2fa",
+        "type": "Flexible Work Hours",
+        "description": "Flexible work schedule to accommodate personal needs",
+        "value": 69230,
+        "created_at": "2023-08-28T00:24:31.310Z",
+        "updated_at": "2023-08-28T06:32:03.626Z",
+        "employee_id": "c17f0914-2567-4929-bb27-4859c8476a04"
+      },
+      {
+        "id": "071a56da-c909-4b5b-a24e-cc781efcb3b5",
+        "type": "Professional Development",
+        "description": "Opportunities for career growth and skill enhancement",
+        "value": 89118,
+        "created_at": "2023-08-28T07:38:32.643Z",
+        "updated_at": "2023-08-27T10:28:47.892Z",
+        "employee_id": "f6135a84-370b-42ec-bdd5-723b1f3b75dd"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "94947e9d-30f2-4a93-ad8f-3a706c2ff6a1",
+        "email": "Kennedi_Spencer61@gmail.com",
+        "firstName": "Eladio",
+        "lastName": "Schuster",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/94671962",
+        "tenantId": null
+      },
+      {
+        "reference": "bc41c93a-bbdd-4df5-ad8a-ec9fcf6d4ff9",
+        "email": "Arely.Rau@hotmail.com",
+        "firstName": "Coy",
+        "lastName": "Kessler",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/718.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "bf418244-f437-4119-b194-4f091957862a",
+        "email": "Emie96@hotmail.com",
+        "firstName": "Aniya",
+        "lastName": "Hills",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/67464763",
+        "tenantId": null
+      },
+      {
+        "reference": "78914af0-6651-4ac1-ba00-091d684e424f",
+        "email": "Adriel_Wolf53@hotmail.com",
+        "firstName": "Michele",
+        "lastName": "O'Hara",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/43912718",
+        "tenantId": null
+      },
+      {
+        "reference": "422c5c3d-23a5-47af-a546-3154f7a1dc8e",
+        "email": "Cullen.Schulist@hotmail.com",
+        "firstName": "Lauryn",
+        "lastName": "Windler",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/200.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "employee": [
+      {
+        "id": "5b6c447e-c097-4371-bf42-32145da7047d",
+        "first_name": "David",
+        "last_name": "Johnson",
+        "job_title": "Software Engineer",
+        "start_date": "2023-08-27T20:46:36.558Z",
+        "end_date": "2023-08-27T13:20:30.416Z",
+        "created_at": "2023-08-28T01:33:09.415Z",
+        "updated_at": "2023-08-27T21:54:52.108Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "5fd439d3-5175-4892-9575-fbe3a253ab20",
+        "first_name": "Emily",
+        "last_name": "Anderson",
+        "job_title": "Marketing Specialist",
+        "start_date": "2023-08-27T18:34:53.305Z",
+        "end_date": "2023-08-28T03:47:28.215Z",
+        "created_at": "2023-08-28T00:50:13.274Z",
+        "updated_at": "2023-08-27T17:26:40.569Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "23f714c1-1b27-4eaa-9f72-703b347c16a2",
+        "first_name": "Daniel",
+        "last_name": "Williams",
+        "job_title": "Sales Manager",
+        "start_date": "2023-08-28T01:33:13.546Z",
+        "end_date": "2023-08-27T20:27:28.462Z",
+        "created_at": "2023-08-27T21:23:33.579Z",
+        "updated_at": "2023-08-27T15:55:40.629Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "6fc0174f-6fce-4896-a04f-3d3a9be05a19",
+        "first_name": "Olivia",
+        "last_name": "Taylor",
+        "job_title": "HR Coordinator",
+        "start_date": "2023-08-28T01:25:31.356Z",
+        "end_date": "2023-08-27T11:59:26.118Z",
+        "created_at": "2023-08-28T05:26:38.215Z",
+        "updated_at": "2023-08-28T05:09:21.016Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "bf30f289-a5c0-4400-806a-d577565bdb3b",
+        "first_name": "Matthew",
+        "last_name": "Brown",
+        "job_title": "Financial Analyst",
+        "start_date": "2023-08-28T05:12:48.797Z",
+        "end_date": "2023-08-28T08:18:29.107Z",
+        "created_at": "2023-08-28T05:12:16.769Z",
+        "updated_at": "2023-08-28T00:27:18.863Z",
+        "company_id": "main_entity_pk"
+      }
+    ],
+    "vacation": [
+      {
+        "id": "0fb9afbd-121e-4e38-ad3f-2f1ac618812d",
+        "start_date": "2023-08-27T15:49:50.563Z",
+        "end_date": "2023-08-27T14:18:41.015Z",
+        "created_at": "2023-08-27T14:00:27.005Z",
+        "updated_at": "2023-08-27T23:25:00.870Z",
+        "employee_id": "23f714c1-1b27-4eaa-9f72-703b347c16a2"
+      },
+      {
+        "id": "eaca7a20-1722-4423-9ee6-03335fbdd636",
+        "start_date": "2023-08-27T22:14:56.871Z",
+        "end_date": "2023-08-27T12:06:56.371Z",
+        "created_at": "2023-08-28T01:44:30.654Z",
+        "updated_at": "2023-08-28T09:31:39.350Z",
+        "employee_id": "5b6c447e-c097-4371-bf42-32145da7047d"
+      },
+      {
+        "id": "6dfd197c-5264-42f0-bab0-744247f757f9",
+        "start_date": "2023-08-27T16:22:14.167Z",
+        "end_date": "2023-08-28T08:22:01.591Z",
+        "created_at": "2023-08-28T02:19:37.891Z",
+        "updated_at": "2023-08-27T12:18:17.468Z",
+        "employee_id": "5b6c447e-c097-4371-bf42-32145da7047d"
+      },
+      {
+        "id": "d1e2235e-d9b7-418b-9b94-95febd28700b",
+        "start_date": "2023-08-27T21:53:29.836Z",
+        "end_date": "2023-08-28T06:29:11.298Z",
+        "created_at": "2023-08-28T03:57:38.847Z",
+        "updated_at": "2023-08-27T11:03:39.323Z",
+        "employee_id": "6fc0174f-6fce-4896-a04f-3d3a9be05a19"
+      },
+      {
+        "id": "d9637629-53e0-4612-a604-faf4fac1961e",
+        "start_date": "2023-08-27T14:28:57.019Z",
+        "end_date": "2023-08-27T22:58:44.604Z",
+        "created_at": "2023-08-27T13:10:12.861Z",
+        "updated_at": "2023-08-27T14:19:29.977Z",
+        "employee_id": "5b6c447e-c097-4371-bf42-32145da7047d"
+      }
+    ],
+    "payroll": [
+      {
+        "id": "594d529e-7f0a-420d-947c-8cbde6170769",
+        "salary": 25770,
+        "bonus": 34817,
+        "deductions": 61977,
+        "created_at": "2023-08-27T16:54:30.502Z",
+        "updated_at": "2023-08-28T03:37:02.441Z",
+        "employee_id": "23f714c1-1b27-4eaa-9f72-703b347c16a2"
+      },
+      {
+        "id": "83c0afdc-0843-4161-a2f5-019162ed05ea",
+        "salary": 65668,
+        "bonus": 36434,
+        "deductions": 66582,
+        "created_at": "2023-08-27T17:11:39.426Z",
+        "updated_at": "2023-08-27T12:17:02.297Z",
+        "employee_id": "6fc0174f-6fce-4896-a04f-3d3a9be05a19"
+      },
+      {
+        "id": "3c019477-0c52-4750-bad0-168a502290ac",
+        "salary": 37480,
+        "bonus": 14147,
+        "deductions": 29744,
+        "created_at": "2023-08-27T18:25:15.751Z",
+        "updated_at": "2023-08-28T00:00:51.325Z",
+        "employee_id": "6fc0174f-6fce-4896-a04f-3d3a9be05a19"
+      },
+      {
+        "id": "f0fad030-e33d-42c1-9990-867ea7272200",
+        "salary": 55790,
+        "bonus": 6335,
+        "deductions": 59752,
+        "created_at": "2023-08-28T06:16:17.300Z",
+        "updated_at": "2023-08-27T14:07:10.850Z",
+        "employee_id": "bf30f289-a5c0-4400-806a-d577565bdb3b"
+      },
+      {
+        "id": "d73afd23-0930-4439-b250-3f1cca4dd020",
+        "salary": 77659,
+        "bonus": 99993,
+        "deductions": 53933,
+        "created_at": "2023-08-27T17:59:24.290Z",
+        "updated_at": "2023-08-28T02:17:28.124Z",
+        "employee_id": "6fc0174f-6fce-4896-a04f-3d3a9be05a19"
+      }
+    ],
+    "benefit": [
+      {
+        "id": "1bbf6741-64d1-497c-a69a-10117c6fc6de",
+        "type": "Health Insurance",
+        "description": "Comprehensive health insurance coverage for employees and their families",
+        "value": 95542,
+        "created_at": "2023-08-27T13:16:38.632Z",
+        "updated_at": "2023-08-27T17:12:07.448Z",
+        "employee_id": "23f714c1-1b27-4eaa-9f72-703b347c16a2"
+      },
+      {
+        "id": "fba626f6-fce8-4be2-9896-42ba3427b224",
+        "type": "401(k) Plan",
+        "description": "Retirement savings plan with employer matching contributions",
+        "value": 59091,
+        "created_at": "2023-08-27T10:04:30.675Z",
+        "updated_at": "2023-08-27T15:19:18.468Z",
+        "employee_id": "bf30f289-a5c0-4400-806a-d577565bdb3b"
+      },
+      {
+        "id": "f931581c-50e7-4177-8cf3-ab41111370ab",
+        "type": "Paid Time Off",
+        "description": "Generous vacation and sick leave policy",
+        "value": 56278,
+        "created_at": "2023-08-27T13:35:24.488Z",
+        "updated_at": "2023-08-28T07:48:51.701Z",
+        "employee_id": "5fd439d3-5175-4892-9575-fbe3a253ab20"
+      },
+      {
+        "id": "7a432b8e-efa7-4c9a-92a4-e78aab843491",
+        "type": "Flexible Work Schedule",
+        "description": "Opportunity to work remotely and choose flexible hours",
+        "value": 3213,
+        "created_at": "2023-08-28T08:00:28.663Z",
+        "updated_at": "2023-08-28T02:31:08.065Z",
+        "employee_id": "6fc0174f-6fce-4896-a04f-3d3a9be05a19"
+      },
+      {
+        "id": "586856f3-619a-4054-8be1-17f449bcd669",
+        "type": "Professional Development",
+        "description": "Support for continuous learning and career growth",
+        "value": 34187,
+        "created_at": "2023-08-27T15:44:34.085Z",
+        "updated_at": "2023-08-28T08:51:49.347Z",
+        "employee_id": "5b6c447e-c097-4371-bf42-32145da7047d"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "54115317-693b-4084-b93f-9aeb66dc473f",
+        "email": "Arjun_Rohan63@yahoo.com",
+        "firstName": "Claire",
+        "lastName": "Herman",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/517.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "6a6ce147-0ac6-455e-b3ff-2fb996b29565",
+        "email": "Jordyn85@gmail.com",
+        "firstName": "Amalia",
+        "lastName": "Hintz",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/75627621",
+        "tenantId": null
+      },
+      {
+        "reference": "61677c9e-6cfe-4cca-b3b6-6145a2ef8911",
+        "email": "Estella_Block@yahoo.com",
+        "firstName": "Milo",
+        "lastName": "McLaughlin",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/45752622",
+        "tenantId": null
+      },
+      {
+        "reference": "2d248a5a-9394-4fee-8764-dbae73de1d6a",
+        "email": "Zaria99@gmail.com",
+        "firstName": "Catalina",
+        "lastName": "Greenholt",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/38786900",
+        "tenantId": null
+      },
+      {
+        "reference": "9960e3d3-9380-4eeb-8cc7-b287ea27ae5e",
+        "email": "Lester.Hoeger@gmail.com",
+        "firstName": "Dameon",
+        "lastName": "Larson",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/579.jpg",
+        "tenantId": null
+      }
+    ]
+  }
+]
